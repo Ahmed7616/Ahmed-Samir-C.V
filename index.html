@@ -48,6 +48,7 @@
     main {
       flex: 1;
       padding: 40px;
+      position: relative;
     }
     header h2 {
       font-size: 26px;
@@ -81,6 +82,21 @@
       display: inline-block;
       width: 160px;
       color: #34495e;
+    }
+    .buttons {
+      margin-top: 40px;
+    }
+    .buttons a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    .buttons a:hover {
+      background-color: #0056b3;
     }
     @media (max-width: 768px) {
       body {
@@ -151,6 +167,11 @@
       <h3>Languages</h3>
       <p><strong>Arabic:</strong> Native</p>
       <p><strong>English:</strong> Good</p>
+    </div>
+
+    <div class="buttons">
+      <a href="https://ahmedsamir-cv.netlify.app" target="_blank"><i class="fa fa-globe"></i> Visit Online CV</a>
+      <a href="Ahmed-Samir-CV.pdf" download><i class="fa fa-download"></i> Download PDF</a>
     </div>
   </main>
 </body>
